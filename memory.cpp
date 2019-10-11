@@ -7,7 +7,7 @@ memory::memory(FILE* file) {
 
     //debug************
     for(long lcv = 0; lcv < memSize; lcv++) {
-        std::cout<<mem[lcv]<<std::endl;
+        std::cout<<int(mem[lcv])<<std::endl;
     }
     //debug************
 }

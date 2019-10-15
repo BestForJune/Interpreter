@@ -56,7 +56,22 @@ int main(int argc, char** argv) {
             data data1 = rstack.back();
 
         }
-        if()
+
+        if(instruction == 148) { //print character
+            data data1 = rstack.back();
+            rstack.pop_back();
+            cout << data1.getData(charIndicator) << endl;
+        }
+        if(instruction == 149) { //print short
+            data data1 = rstack.back();
+            rstack.pop_back();
+            cout << data1.getData(shortIndicator) << endl;
+        }
+        if(instruction == 150) { //print int
+            data data1 = rstack.back();
+            rstack.pop_back();
+            cout << data1.getData(intIndicator) << endl;
+        }
         if(instruction == 151) { //print float
             data data1 = rstack.back();
             rstack.pop_back();

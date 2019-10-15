@@ -62,6 +62,50 @@ int data::operator < (data arg){
     return 0;
 }
 
+data data::operator + (data arg){
+    if (dataType == arg.dataType){
+        if (dataType == CHAR){ return data(charData + arg.charData); }
+        else if (dataType == SHORT){ return data(shortData + arg.shortData); }
+        else if (dataType == INT){ return data(intData + arg.intData); }
+        else if (dataType == FLOAT){ return data(floatData + arg.floatData); }
+    }
+    std::cout<< "None matching data Type!\n";
+    return data(0);
+}
+
+data data::operator - (data arg){
+    if (dataType == arg.dataType){
+        if (dataType == CHAR){ return data(charData - arg.charData); }
+        else if (dataType == SHORT){ return data(shortData - arg.shortData); }
+        else if (dataType == INT){ return data(intData - arg.intData); }
+        else if (dataType == FLOAT){ return data(floatData - arg.floatData); }
+    }
+    std::cout<< "None matching data Type!\n";
+    return data(0);
+}
+
+data data::operator * (data arg){
+    if (dataType == arg.dataType){
+        if (dataType == CHAR){ return data(charData * arg.charData); }
+        else if (dataType == SHORT){ return data(shortData * arg.shortData); }
+        else if (dataType == INT){ return data(intData * arg.intData); }
+        else if (dataType == FLOAT){ return data(floatData * arg.floatData); }
+    }
+    std::cout<< "None matching data Type!\n";
+    return data(0);
+}
+
+data data::operator / (data arg){
+    if (dataType == arg.dataType){
+        if (dataType == CHAR){ return data(charData / arg.charData); }
+        else if (dataType == SHORT){ return data(shortData / arg.shortData); }
+        else if (dataType == INT){ return data(intData / arg.intData); }
+        else if (dataType == FLOAT){ return data(floatData / arg.floatData); }
+    }
+    std::cout<< "None matching data Type!\n";
+    return data(0);
+}
+
 char data::getData(char indicator) {
     if(dataType != CHAR) {
         std::cout << "Error in data type\n";

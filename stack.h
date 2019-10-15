@@ -22,6 +22,10 @@ public:
     int operator==(data input);
     int operator>(data input);
     int operator<(data input);
+    data operator+(data input);
+    data operator-(data input);
+    data operator*(data input);
+    data operator/(data input);
     char getData(char indicator);
     short getData(short indicator);
     int getData(int indicator);

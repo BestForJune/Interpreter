@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
     }
     auto* progMem = new memory(file); // Program memory
     vector<data> rstack; //runtime stack
-    int rp = -1; //runtime stack pointer
+    int sp = -1; //runtime stack pointer
     vector<int> fpstack; //stack of frame pointers
     int fpsp = -1; // frame pointer stack pointer
     bool halt = false;
@@ -29,6 +29,12 @@ int main(int argc, char** argv) {
             int data2 = rstack.back();
             rstack.pop_back();
             rstack.push_back(data1 == data2);
+        }
+        if(instruction == 151) { //print float
+
+        }
+        if(instruction == 0) { //halt
+            halt = true;
         }
     }
     delete progMem;

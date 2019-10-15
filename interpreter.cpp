@@ -24,9 +24,9 @@ int main(int argc, char** argv) {
     while(!halt) {
         unsigned char instruction = progMem -> getCurrent();
         if (instruction == 132){ //cmpe
-            int data1 = rstack.back();
+            data data1 = rstack.back();
             rstack.pop_back();
-            int data2 = rstack.back();
+            data data2 = rstack.back();
             rstack.pop_back();
             rstack.push_back(data1 == data2);
         }

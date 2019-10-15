@@ -22,8 +22,8 @@ int main(int argc, char** argv) {
     bool halt = false;
 
     while(!halt) {
-        unsigned char instruction = progMem -> getCurrent();
-        if (instruction == 132){ //cmpe: 132, or 10000100
+        unsigned char instruction = progMem.getCurrent();
+        if (instruction == 132){ //cmpe
             data data1 = rstack.back();
             rstack.pop_back();
             data data2 = rstack.back();
@@ -53,7 +53,11 @@ int main(int argc, char** argv) {
 
         }
         if(instruction == 151) { //print float
-            rstack
+            data data1 = rstack.back();
+            rstack.pop_back();
+            cout <<
+            rstack.pop_back();
+
         }
         if(instruction == 0) { //halt
             halt = true;

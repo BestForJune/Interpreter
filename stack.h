@@ -19,8 +19,12 @@ public:
     explicit data(int dataInput);
     explicit data(float dataInput);
     virtual ~data() = default;
-    int operator==(data input);
-    int operator>(data input);
-    int operator<(data input);
+    data operator==(data input);
+    data operator>(data input);
+    data operator<(data input);
+    char getData(char indicator);
+    short getData(short indicator);
+    int getData(int indicator);
+    float getData(float indicator);
 };
 #endif //INTERPRETER_STACK_H

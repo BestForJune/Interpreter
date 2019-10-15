@@ -57,6 +57,46 @@ int main(int argc, char** argv) {
 
         }
 
+        if(instruction == 94) { //swap
+            data dataUpper = rstack.back();
+            rstack.pop_back();
+            data dataLower = rstack.back();
+            rstack.pop_back();
+            rstack.push_back(dataUpper);
+            rstack.push_back(dataLower);
+        }
+        if(instruction == 100) { //addition
+            data dataUpper = rstack.back();
+            rstack.pop_back();
+            data dataLower = rstack.back();
+            rstack.pop_back();
+            dataLower = dataLower + dataUpper;
+            rstack.push_back(dataLower);
+        }
+        if(instruction == 104) { //subtract
+            data dataUpper = rstack.back();
+            rstack.pop_back();
+            data dataLower = rstack.back();
+            rstack.pop_back();
+            dataLower = dataLower - dataUpper;
+            rstack.push_back(dataLower);
+        }
+        if(instruction == 108) { //multiplication
+            data dataUpper = rstack.back();
+            rstack.pop_back();
+            data dataLower = rstack.back();
+            rstack.pop_back();
+            dataLower = dataLower * dataUpper;
+            rstack.push_back(dataLower);
+        }
+        if(instruction == 112) { //divide
+            data dataUpper = rstack.back();
+            rstack.pop_back();
+            data dataLower = rstack.back();
+            rstack.pop_back();
+            dataLower = dataLower / dataUpper;
+            rstack.push_back(dataLower);
+        }
         if(instruction == 148) { //print character
             data data1 = rstack.back();
             rstack.pop_back();

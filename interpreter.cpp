@@ -4,6 +4,7 @@
 #include <vector>
 #include "memory.h"
 #include "stack.h"
+#include "instruction.h"
 
 using namespace std;
 

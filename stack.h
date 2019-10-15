@@ -5,9 +5,6 @@
 #define SHORT 2
 #define INT 3
 #define FLOAT 4
-class runTimeStack {
-
-};
 
 class data {
     int dataType; //char 1; short 2; int 3; float 4;

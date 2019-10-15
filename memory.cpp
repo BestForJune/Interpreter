@@ -26,6 +26,12 @@ memory::~memory() {
 }
 
 
+unsigned char memory::getCurrent() {
+    return mem[programCounter];
+}
+
+
+
 //count size of the byte array from file
 //so that the array can be initialized
 long countFromFile(FILE* file)
@@ -36,3 +42,4 @@ long countFromFile(FILE* file)
     fseek(file, 0, SEEK_SET);
     return size;
 }
+

@@ -4,14 +4,14 @@
 #include <iostream>
 #include <cstdio>
 class memory {
-    int programCounter;
     long memSize;
     unsigned char* mem; //stores bytes read from input file
     void readFromFile(FILE* file);
 public:
+    int programCounter;
     explicit memory(FILE* file);
     virtual ~memory();
-
+    unsigned char getCurrent(); // get current byte
 };
 
 long countFromFile(FILE* file);

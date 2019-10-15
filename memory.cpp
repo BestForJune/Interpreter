@@ -6,9 +6,9 @@ memory::memory(FILE* file) {
     this -> readFromFile(file);
 
     //debug************
-    for(long lcv = 0; lcv < memSize; lcv++) {
-        std::cout<<int(mem[lcv])<<std::endl;
-    }
+//    for(long lcv = 0; lcv < memSize; lcv++) {
+//        std::cout<<int(mem[lcv])<<std::endl;
+//    }
     //debug************
 }
 
@@ -17,7 +17,7 @@ void memory::readFromFile(FILE *file) {
     unsigned char temp; // to store one byte read from file
     for(long lcv = 0; lcv < memSize; lcv++) {
         fread(&temp,  sizeof(unsigned char), 1, file);
-        mem[lcv] =temp;
+        mem[lcv] = temp;
     }
 }
 

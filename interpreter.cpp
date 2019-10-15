@@ -16,13 +16,16 @@ int main(int argc, char** argv) {
     }
     auto* progMem = new memory(file); // Program memory
     vector<data> rstack; //runtime stack
-    int rp = -1; //runtime stack pointer
+    int sp = -1; //runtime stack pointer
     vector<int> fpstack; //stack of frame pointers
     int fpsp = -1; // frame pointer stack pointer
     bool halt = false;
 
     while(!halt) {
         unsigned char instruction = progMem -> getCurrent();
+        if(instruction == 0) { //halt
+            halt = true;
+        }
     }
     delete progMem;
     fclose(file);

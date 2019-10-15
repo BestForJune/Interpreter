@@ -30,6 +30,23 @@ int main(int argc, char** argv) {
             rstack.pop_back();
             rstack.push_back(data1 == data2);
         }
+        if (instruction == 135){
+            data data1 = rstack.back();
+            rstack.pop_back();
+            data data2 = rstack.back();
+            rstack.pop_back();
+            rstack.push_back(data1 < data2);
+        }
+        if (instruction == 140){
+            data data1 = rstack.back();
+            rstack.pop_back();
+            data data2 = rstack.back();
+            rstack.pop_back();
+            rstack.push_back(data1 > data2);
+        }
+        if (instruction == 36){
+            
+        }
         if(instruction == 151) { //print float
             rstack
         }

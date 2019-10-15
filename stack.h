@@ -19,5 +19,8 @@ public:
     explicit data(int dataInput);
     explicit data(float dataInput);
     virtual ~data() = default;
+    data operator==(data input);
+    data operator>(data input);
+    data operator<(data input);
 };
 #endif //INTERPRETER_STACK_H

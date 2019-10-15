@@ -23,6 +23,10 @@ int main(int argc, char** argv) {
 
     while(!halt) {
         unsigned char instruction = progMem -> getCurrent();
+        if (instruction == 68){ //pushc
+            rstack[++sp] = mem[pc+1];
+            pc += 2;
+        }
     }
     delete progMem;
     fclose(file);

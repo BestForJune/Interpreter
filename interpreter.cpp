@@ -23,29 +23,34 @@ int main(int argc, char** argv) {
 
     while(!halt) {
         unsigned char instruction = progMem -> getCurrent();
-        if (instruction == 132){ //cmpe
+        if (instruction == 132){ //cmpe: 132, or 10000100
             data data1 = rstack.back();
             rstack.pop_back();
             data data2 = rstack.back();
             rstack.pop_back();
             rstack.push_back(data1 == data2);
         }
-        if (instruction == 135){
+        if (instruction == 135){ //cmplt: 136, or 10001000
             data data1 = rstack.back();
             rstack.pop_back();
             data data2 = rstack.back();
             rstack.pop_back();
             rstack.push_back(data1 < data2);
         }
-        if (instruction == 140){
+        if (instruction == 140){ //cmpgt: 140, or 10001100
             data data1 = rstack.back();
             rstack.pop_back();
             data data2 = rstack.back();
             rstack.pop_back();
             rstack.push_back(data1 > data2);
         }
-        if (instruction == 36){
-            
+        if (instruction == 36){ //jmp: 36, or 00100100 
+            progMem.programCounter = rstack.back().getData;
+            rstack.pop_back();
+        }
+        if (instruction == 40){ //jmpc: 40, or 00101000
+            data data1 = rstack.back();
+
         }
         if(instruction == 151) { //print float
             rstack

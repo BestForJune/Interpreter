@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     bool halt = false;
 
     while(!halt) {
-        unsigned char instruction = progMem -> getCurrent();
+        unsigned char instruction = progMem.getCurrent();
         if (instruction == 132){ //cmpe
             data data1 = rstack.back();
             rstack.pop_back();

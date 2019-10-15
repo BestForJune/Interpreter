@@ -1,4 +1,5 @@
 #include "stack.h"
+#include <iostream>
 data::data(char dataInput) {
     dataType = CHAR;
     charData = dataInput;
@@ -59,4 +60,30 @@ data data::operator < (data arg){
         else if (dataType == FLOAT && floatData < arg.floatData){ return 1; }
     }
     return 0;
+}
+
+char data::getData(char indicator) {
+    if(dataType != CHAR) {
+        std::cout << "Error in data type\n";
+    }
+    return charData;
+}
+short data::getData(short indicator) {
+    if(dataType != SHORT) {
+        std::cout << "Error in data type\n";
+    }
+    return shortData;
+}
+
+int data::getData(int indicator) {
+    if(dataType != INT) {
+        std::cout << "Error in data type\n";
+    }
+    return intData;
+}
+float data::getData(float indicator) {
+    if(dataType != FLOAT) {
+        std::cout << "Error in data type\n";
+    }
+    return floatData;
 }

@@ -18,12 +18,11 @@ int main(int argc, char** argv) {
 //    int rp = -1; //runtime stack pointer
     vector<int> fpstack; //stack of frame pointers
     bool halt = false;
-/*
+
     while(!halt) {
         unsigned char instruction = progMem -> getCurrent();
         if
     }
-comment*/
     delete progMem;
     fclose(file);
     return EXIT_SUCCESS;

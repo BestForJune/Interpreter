@@ -20,6 +20,10 @@ int main(int argc, char** argv) {
     vector<int> fpstack; //stack of frame pointers
     int fpsp = -1; // frame pointer stack pointer
     bool halt = false;
+    char charIndicator = 'c';
+    short shortIndicator = 1;
+    int intIndicator = 1;
+    float floatIndicator = 1.2;
 
     while(!halt) {
         unsigned char instruction = progMem.getCurrent();
@@ -52,12 +56,11 @@ int main(int argc, char** argv) {
             data data1 = rstack.back();
 
         }
+        if()
         if(instruction == 151) { //print float
             data data1 = rstack.back();
             rstack.pop_back();
-            cout <<
-            rstack.pop_back();
-
+            cout << data1.getData(floatIndicator) << endl;
         }
         if(instruction == 0) { //halt
             halt = true;

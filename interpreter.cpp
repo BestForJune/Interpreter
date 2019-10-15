@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
         cout << "Error opening the file!\n";
         return EXIT_FAILURE;
     }
-    auto* progMem = new memory(file); // Program memory
+    memory progMem = memory(file); // Program memory
     vector<data> rstack; //runtime stack
     int sp = -1; //runtime stack pointer
     vector<int> fpstack; //stack of frame pointers
@@ -31,13 +31,12 @@ int main(int argc, char** argv) {
             rstack.push_back(data1 == data2);
         }
         if(instruction == 151) { //print float
-
+            rstack
         }
         if(instruction == 0) { //halt
             halt = true;
         }
     }
-    delete progMem;
     fclose(file);
     return EXIT_SUCCESS;
 }

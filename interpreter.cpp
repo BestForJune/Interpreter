@@ -49,12 +49,16 @@ int main(int argc, char** argv) {
             rstack.push_back(data1 > data2);
         }
         if (instruction == 36){ //jmp: 36, or 00100100 
-            progMem.programCounter = rstack.back().getData;
+            progMem.programCounter = rstack.back().getData(intIndicator);
             rstack.pop_back();
         }
         if (instruction == 40){ //jmpc: 40, or 00101000
             data data1 = rstack.back();
-
+            if (data1.dataType == 3 && data1.intData){
+                progMem.programCounter = rstack.back().getData(intIndicator);
+                rstack.pop_back();
+                rstack.pop_back();//sp = sp-2
+            }
         }
 
         if(instruction == 94) { //swap

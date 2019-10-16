@@ -4,7 +4,6 @@
 #include <vector>
 #include "memory.h"
 #include "stack.h"
-#include "instruction.h"
 
 using namespace std;
 
@@ -60,8 +59,19 @@ int main(int argc, char** argv) {
                 rstack.pop_back();//sp = sp-2
             }
         }
-
-        if(instruction == 94) { //swap
+        if(instruction == 91 || // pokef 01100011
+           instruction == 90 || // pokei 01100010
+           instruction == 89 || // pokes 01100001
+           instruction == 88// pokec 01100000
+                ) {
+            //offset of the one is going to be changed
+            int offsetChange = rstack.back().getData(intIndicator);
+            //offset of the value
+            int offsetTarget = rstack[rstack.size() - 1].getData(intIndicator);
+            fpsp = fpstack.back();
+            rstack[fpsp + offsetChange + 1] = rstack[fpsp + offsetTarget + 1];
+        }
+        if(instruction == 94) { //swap 01100100
             data dataUpper = rstack.back();
             rstack.pop_back();
             data dataLower = rstack.back();
@@ -69,7 +79,7 @@ int main(int argc, char** argv) {
             rstack.push_back(dataUpper);
             rstack.push_back(dataLower);
         }
-        if(instruction == 100) { //addition
+        if(instruction == 100) { //addition 01100100
             data dataUpper = rstack.back();
             rstack.pop_back();
             data dataLower = rstack.back();
@@ -77,7 +87,7 @@ int main(int argc, char** argv) {
             dataLower = dataLower + dataUpper;
             rstack.push_back(dataLower);
         }
-        if(instruction == 104) { //subtract
+        if(instruction == 104) { //subtract 01101000
             data dataUpper = rstack.back();
             rstack.pop_back();
             data dataLower = rstack.back();
@@ -85,7 +95,7 @@ int main(int argc, char** argv) {
             dataLower = dataLower - dataUpper;
             rstack.push_back(dataLower);
         }
-        if(instruction == 108) { //multiplication
+        if(instruction == 108) { //multiplication 01101100
             data dataUpper = rstack.back();
             rstack.pop_back();
             data dataLower = rstack.back();
@@ -93,7 +103,7 @@ int main(int argc, char** argv) {
             dataLower = dataLower * dataUpper;
             rstack.push_back(dataLower);
         }
-        if(instruction == 112) { //divide
+        if(instruction == 112) { //divide 01110000
             data dataUpper = rstack.back();
             rstack.pop_back();
             data dataLower = rstack.back();
@@ -101,12 +111,12 @@ int main(int argc, char** argv) {
             dataLower = dataLower / dataUpper;
             rstack.push_back(dataLower);
         }
-        if(instruction == 148) { //print character
+        if(instruction == 148) { //print character 10010100
             data data1 = rstack.back();
             rstack.pop_back();
             cout << data1.getData(charIndicator) << endl;
         }
-        if(instruction == 149) { //print short
+        if(instruction == 149) { //print short 10010110
             data data1 = rstack.back();
             rstack.pop_back();
             cout << data1.getData(shortIndicator) << endl;
@@ -116,12 +126,12 @@ int main(int argc, char** argv) {
             rstack.pop_back();
             cout << data1.getData(intIndicator) << endl;
         }
-        if(instruction == 151) { //print float
+        if(instruction == 151) { //print float 10010111
             data data1 = rstack.back();
             rstack.pop_back();
             cout << data1.getData(floatIndicator) << endl;
         }
-        if(instruction == 0) { //halt
+        if(instruction == 0) { //halt 00000000
             halt = true;
         }
     }

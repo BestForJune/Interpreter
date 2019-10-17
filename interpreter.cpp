@@ -59,15 +59,27 @@ int main(int argc, char** argv) {
                 rstack.pop_back();//sp = sp-2
             }
         }
+        if(instruction == 87 || // peekf 01011011
+           instruction == 86 || // peeki 01011010
+           instruction == 85 || // peeks 01011001
+           instruction == 84    // peekc 01011000
+                ) {
+            //offset of the one is going to be changed
+            int offsetChange = rstack[rstack.size() - 2].getData(intIndicator);
+            //offset of the value
+            int offsetTarget = rstack.back().getData(intIndicator);
+            fpsp = fpstack.back();
+            rstack[fpsp + offsetChange + 1] = rstack[fpsp + offsetTarget + 1];
+        }
         if(instruction == 91 || // pokef 01100011
            instruction == 90 || // pokei 01100010
            instruction == 89 || // pokes 01100001
-           instruction == 88// pokec 01100000
-                ) {
+           instruction == 88    // pokec 01100000
+           ) {
             //offset of the one is going to be changed
             int offsetChange = rstack.back().getData(intIndicator);
             //offset of the value
-            int offsetTarget = rstack[rstack.size() - 1].getData(intIndicator);
+            int offsetTarget = rstack[rstack.size() - 2].getData(intIndicator);
             fpsp = fpstack.back();
             rstack[fpsp + offsetChange + 1] = rstack[fpsp + offsetTarget + 1];
         }

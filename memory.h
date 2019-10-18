@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <cstdio>
+#include <cstdlib>
 class memory {
     long memSize;
     unsigned char* mem; //stores bytes read from input file
@@ -12,6 +13,10 @@ public:
     explicit memory(FILE* file);
     virtual ~memory();
     unsigned char getCurrent(); // get current byte
+    char getChar();
+    short getShort();
+    int getInt();
+    float getFloat();
 };
 
 long countFromFile(FILE* file);

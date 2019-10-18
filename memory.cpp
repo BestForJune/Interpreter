@@ -43,3 +43,44 @@ long countFromFile(FILE* file)
     return size;
 }
 
+//get a character from memory
+//From current program point
+//When returns, put the PC into the next one
+char memory::getChar() {
+    return char(mem[programCounter++]);
+}
+
+//get a short from memory
+//From current program point
+//When returns, put the PC into the next one
+short memory::getShort() {
+    short result = short(mem[programCounter] << 8 |
+                        (mem[programCounter + 1]));
+    programCounter += 2;
+    return result;
+}
+
+//get a int from memory
+//From current program point
+//When returns, put the PC into the next one
+int memory::getInt() {
+    int result = int(mem[programCounter] << 24 |
+                mem[programCounter + 1] << 16 |
+                mem[programCounter + 2] << 8 |
+                mem[programCounter + 3]);
+    programCounter += 4;
+    return result;
+}
+
+//get a float from memory
+//From current program point
+//When returns, put the PC into the next one
+float memory::getFloat() {
+    float result = float(mem[programCounter] << 24 |
+                     mem[programCounter + 1] << 16 |
+                     mem[programCounter + 2] << 8 |
+                     mem[programCounter + 3]);
+    programCounter += 4;
+    return result;
+}
+

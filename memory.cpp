@@ -54,8 +54,10 @@ char memory::getChar() {
 //From current program point
 //When returns, put the PC into the next one
 short memory::getShort() {
-    short result = short(mem[programCounter] << 8 |
-                        (mem[programCounter + 1]));
+    short result;
+    unsigned char temp[] = {mem[programCounter],
+                            mem[programCounter + 1]};
+    memcpy(&result, &temp, sizeof(result));
     programCounter += 2;
     return result;
 }
@@ -64,10 +66,12 @@ short memory::getShort() {
 //From current program point
 //When returns, put the PC into the next one
 int memory::getInt() {
-    int result = int(mem[programCounter] << 24 |
-                mem[programCounter + 1] << 16 |
-                mem[programCounter + 2] << 8 |
-                mem[programCounter + 3]);
+    int result;
+    unsigned char temp[] = {mem[programCounter],
+                            mem[programCounter + 1],
+                            mem[programCounter + 2],
+                            mem[programCounter + 3]};
+    memcpy(&result, &temp, sizeof(result));
     programCounter += 4;
     return result;
 }
@@ -76,10 +80,12 @@ int memory::getInt() {
 //From current program point
 //When returns, put the PC into the next one
 float memory::getFloat() {
-    float result = float(mem[programCounter] << 24 |
-                     mem[programCounter + 1] << 16 |
-                     mem[programCounter + 2] << 8 |
-                     mem[programCounter + 3]);
+    float result;
+    unsigned char temp[] = {mem[programCounter],
+                            mem[programCounter + 1],
+                            mem[programCounter + 2],
+                            mem[programCounter + 3]};
+    memcpy(&result, &temp, sizeof(result));
     programCounter += 4;
     return result;
 }

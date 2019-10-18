@@ -54,7 +54,8 @@ int main(int argc, char** argv) {
         }
         if (instruction == 40){ //jmpc: 40, or 00101000
             data data1 = rstack.back();
-            if (data1.dataType == 3 && data1.intData){
+            int value = data1.getData(intIndicator);
+            if (data1.dataType == 3 && value){
                 progMem.programCounter = rstack.back().getData(intIndicator);
                 rstack.pop_back();
                 rstack.pop_back();//sp = sp-2

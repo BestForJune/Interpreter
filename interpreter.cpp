@@ -52,12 +52,94 @@ int main(int argc, char** argv) {
             rstack.pop_back();
         }
         if (instruction == 40){ //jmpc: 40, or 00101000
-            data data1 = rstack.back();
-            int value = data1.getData(intIndicator);
-            if (data1.dataType == 3 && value){
-                progMem.programCounter = rstack.back().getData(intIndicator);
+            data data1 = rstack.back(); //rstack[sp]
+            rstack.pop_back();
+            data data2 = rstack.back();
+            rstack.pop_back();//sp = sp-2
+            int value = data2.getData(intIndicator);
+            if (data2.dataType == 3 && value){
+                progMem.programCounter = data1.getData(intIndicator);
+            }
+            else{
+                rstack.push_back(data2);
+                rstack.push_back(data1);
+            }
+        }
+        if (instruction == 44){ //call: 44, or 00101100
+            sp = rstack.size();
+            data result = int(sp - rstack.back().getData(intIndicator));
+            fpstack.push_back(result);
+            rstack.pop_back();
+            progMem.programCounter = rstack.back().getData(intIndicator); //pc = rstack[sp]
+            rstack.pop_back();
+        }
+        if (instruction == 48){ //ret: 48, or 00110000
+            sp = fpstack.back().getData(intIndicator);
+            fpstack.pop_back();
+            progMem.programCounter = rstack[sp]; //not sure if this works
+        }
+        if (instruction == 68){ //pushc: 68, or 01000100
+            progMem.programCounter += 1;
+            data result = progMem.getChar();
+            rstack.push_back(result);
+        }
+        if (instruction == 69){//pushs: 69 or 01000101
+            progMem.programCounter += 1;
+            data result = progMem.getShort();
+            rstack.push_back(result);
+        }
+        if (instruction == 70){ //pushi: 70 or 01000110
+            progMem.programCounter += 1;
+            data result = progMem.getInt();
+            rstack.push_back(result);
+        }
+        if (instruction == 71){ //pushf: 71 or 01000111
+            progMem.programCounter += 1;
+            data result = progMem.getFloat();
+            rstack.push_back(result);
+        }
+        if (instruction == 72){ //pushvc: 72, or 01001000
+            char result = rstack.back().getData(charIndicator);
+            rstack.pop_back();
+            rstack.push_back(rstack[result]);
+        }
+        if (instruction == 73){ //pushvs: 73, or 01001001
+            short result = rstack.back().getData(shortIndicator);
+            rstack.pop_back();
+            rstack.push_back(rstack[result]);
+        }
+        if (instruction == 74){ //pushvi: 74, or 01001010
+            int result = rstack.back().getData(intIndicator);
+            rstack.pop_back();
+            rstack.push_back(rstack[result]);
+        }
+        if (instruction == 75){ //pushvf: 75, or 01001011
+            float result = rstack.back().getData(floatIndicator);
+            rstack.pop_back();
+            rstack.push_back(rstack[result]);
+        }
+        if (instruction == 76){ //popm: 76, or 01001100
+            sp = rstack.back().getData(intIndicator);
+            for (int i = 0; i < sp; i++){
+                rstack.pop_back;
+            }
+        }
+        if (insturction == 80){ //popv: 80, or 01010000
+            int result = rstack.back().getData(intIndicator);
+            rstack.pop_back();
+            rstack[result] = rstack.back().getData(intIndicator);
+            rstack.pop_back();
+        }
+        if (instruction == 77){ //popa: 77, or 01001101
+            int result = rstack.back().getData(intIndicator);
+            int fpresult = fpstack.back.getData(intIndicator);
+            sp = rstack.size();
+            for (int i = 1; i < result + 1; i++){
+                rstack[fpresult + i] = rstack[sp - result + i - 1];
+            }
+            sp = fpresult+result;
+            for (int i = 0; i < sp; i++){
                 rstack.pop_back();
-                rstack.pop_back();//sp = sp-2
             }
         }
         if(instruction == 87 || // peekf 01011011

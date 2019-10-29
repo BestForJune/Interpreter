@@ -67,14 +67,14 @@ int main(int argc, char** argv) {
         }
         if (instruction == 44){ //call: 44, or 00101100
             sp = rstack.size();
-            int dataresult = sp - rstack.back().getData(intIndicator)-1);
-            fpstack.push_back(dataresult);
+            int dataResult = sp - rstack.back().getData(intIndicator) - 1;
+            fpstack.push_back(dataResult);
             rstack.pop_back();
             progMem.programCounter = rstack.back().getData(intIndicator); //pc = rstack[sp]
             rstack.pop_back();
         }
         if (instruction == 48){ //ret: 48, or 00110000
-            sp = fpstack.back().getData(intIndicator);
+            sp = fpstack.back();
             fpstack.pop_back();
             for (int i = rstack.size(); i < sp; i--){
                 rstack.pop_back();
@@ -83,22 +83,22 @@ int main(int argc, char** argv) {
             rstack.pop_back();
         }
         if (instruction == 68){ //pushc: 68, or 01000100
-            data result = new data(progMem.getChar());
+            data result = data(progMem.getChar());
             progMem.programCounter += 1;
             rstack.push_back(result);
         }
         if (instruction == 69){//pushs: 69 or 01000101
-            data result = new data(progMem.getShort());
+            data result = data(progMem.getShort());
             progMem.programCounter += 1;
             rstack.push_back(result);
         }
         if (instruction == 70){ //pushi: 70 or 01000110
-            data result = new data(progMem.getInt());
+            data result = data(progMem.getInt());
             progMem.programCounter += 1;          
             rstack.push_back(result);
         }
         if (instruction == 71){ //pushf: 71 or 01000111
-            data result = new data(progMem.getFloat());
+            data result = data(progMem.getFloat());
             progMem.programCounter += 1;
             rstack.push_back(result);
         }
@@ -108,7 +108,7 @@ int main(int argc, char** argv) {
             instruction == 75 ){ //pushvf: 75, or 01001011
             int result = rstack.back().getData(intIndicator);
             rstack.pop_back();
-            int fpresult = fpstack.back().getData(intIndicator);
+            int fpresult = fpstack.back();
             rstack.push_back(rstack[result+fpresult+1]);
         }
         if (instruction == 76){ //popm: 76, or 01001100
@@ -117,17 +117,17 @@ int main(int argc, char** argv) {
                 rstack.pop_back();
             }
         }
-        if (insturction == 80){ //popv: 80, or 01010000
+        if (instruction == 80){ //popv: 80, or 01010000
             data result = rstack.back();
             rstack.pop_back();
-            int fpresult = fpstack.back.getData(intIndicator);
+            int fpresult = fpstack.back();
             rstack[fpresult+result.getData(intIndicator)+1] = result;
             rstack.pop_back();
             rstack.pop_back();
         }
         if (instruction == 77){ //popa: 77, or 01001101
             int result = rstack.back().getData(intIndicator);
-            int fpresult = fpstack.back.getData(intIndicator);
+            int fpresult = fpstack.back();
             sp = rstack.size();
             for (int i = 1; i < result + 1; i++){
                 rstack[fpresult + i] = rstack[sp - result + i - 1];

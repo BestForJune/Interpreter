@@ -60,10 +60,6 @@ int main(int argc, char** argv) {
             if (value){
                 progMem.programCounter = data1.getData(intIndicator);
             }
-            else{
-                rstack.push_back(data2);
-                rstack.push_back(data1);
-            }
         }
         if (instruction == 44){ //call: 44, or 00101100
             sp = rstack.size();

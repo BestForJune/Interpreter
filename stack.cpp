@@ -32,37 +32,37 @@ data::data(float dataInput) {
     floatData = dataInput;
 }
 
-data data::operator == (data arg){
+data data::operator == (const data& arg){
     if (dataType == arg.dataType){
-        if (dataType == CHAR && charData == arg.charData){ return data(1); }
-        else if (dataType == SHORT && shortData == arg.shortData){ return data(1); }
-        else if (dataType == INT && intData == arg.intData){ return data(1); }
-        else if (dataType == FLOAT && floatData == arg.floatData){ return data(1); }
+        if (dataType == CHAR && charData == arg.charData){ return data(int(1)); }
+        else if (dataType == SHORT && shortData == arg.shortData){ return data(int(1)); }
+        else if (dataType == INT && intData == arg.intData){ return data(int(1)); }
+        else if (dataType == FLOAT && floatData == arg.floatData){ return data(int(1)); }
     }
-    return data(0);
+    return data(int(0));
 }
 
-data data::operator > (data arg){
+data data::operator > (const data& arg){
     if (dataType == arg.dataType){
-        if (dataType == CHAR && charData > arg.charData){ return data(1); }
-        else if (dataType == SHORT && shortData > arg.shortData){ return data(1); }
-        else if (dataType == INT && intData > arg.intData){ return data(1); }
-        else if (dataType == FLOAT && floatData > arg.floatData){ return data(1); }
+        if (dataType == CHAR && charData > arg.charData){ return data(int(1)); }
+        else if (dataType == SHORT && shortData > arg.shortData){ return data(int(1)); }
+        else if (dataType == INT && intData > arg.intData){ return data(int(1)); }
+        else if (dataType == FLOAT && floatData > arg.floatData){ return data(int(1)); }
     }
-    return data(0);
+    return data(int(0));
 }
 
-data data::operator < (data arg){
+data data::operator < (const data& arg){
     if (dataType == arg.dataType){
-        if (dataType == CHAR && charData < arg.charData){ return data(1); }
-        else if (dataType == SHORT && shortData < arg.shortData){ return data(1); }
-        else if (dataType == INT && intData < arg.intData){ return data(1); }
-        else if (dataType == FLOAT && floatData < arg.floatData){ return data(1); }
+        if (dataType == CHAR && charData < arg.charData){ return data(int(1)); }
+        else if (dataType == SHORT && shortData < arg.shortData){ return data(int(1)); }
+        else if (dataType == INT && intData < arg.intData){ return data(int(1)); }
+        else if (dataType == FLOAT && floatData < arg.floatData){ return data(int(1)); }
     }
-    return data(0);
+    return data(int(0));
 }
 
-data data::operator + (data arg){
+data data::operator + (const data& arg){
     if (dataType == arg.dataType){
         if (dataType == CHAR){ return data(charData + arg.charData); }
         else if (dataType == SHORT){ return data(shortData + arg.shortData); }
@@ -73,7 +73,7 @@ data data::operator + (data arg){
     return data(0);
 }
 
-data data::operator - (data arg){
+data data::operator - (const data& arg){
     if (dataType == arg.dataType){
         if (dataType == CHAR){ return data(charData - arg.charData); }
         else if (dataType == SHORT){ return data(shortData - arg.shortData); }
@@ -84,7 +84,7 @@ data data::operator - (data arg){
     return data(0);
 }
 
-data data::operator * (data arg){
+data data::operator * (const data& arg){
     if (dataType == arg.dataType){
         if (dataType == CHAR){ return data(charData * arg.charData); }
         else if (dataType == SHORT){ return data(shortData * arg.shortData); }
@@ -95,7 +95,7 @@ data data::operator * (data arg){
     return data(0);
 }
 
-data data::operator / (data arg){
+data data::operator / (const data& arg){
     if (dataType == arg.dataType){
         if (dataType == CHAR){ return data(charData / arg.charData); }
         else if (dataType == SHORT){ return data(shortData / arg.shortData); }

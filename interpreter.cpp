@@ -1,12 +1,26 @@
+/******************************************************************************
+ * Assignment:  Lab 06
+ * Lab Section: Thursday, 2-22-2018, 1:30, SC 189
+ * Description: A program that puts into words the mathematical equation that the operator inputs.
+ * Programmers: Daniel Payne payne71@purdue.edu
+ *              Yanjun Chen chen2620@purdue.edu
+ *              Jeffrey Finucane jfinucan@purdue.edu
+ ******************************************************************************/
 #include <cstdlib>
 #include <iostream>
 #include <cstdio>
 #include <vector>
 #include "memory.h"
 #include "data.h"
-
 using namespace std;
 
+/******************************************************************************
+ * Function:    inputNumbers
+ * Description: This functions takes calculation selection and operand selection from user
+ * Parameters:  *number1, int, the first operand declared by the user
+ *                      *number2, int, the second operand declared by the user
+ * Return:         void
+ ******************************************************************************/
 void printStack(vector<data> stack) {
     cout << "fstack: ";
     if (stack.size() <= 0){
@@ -38,12 +52,12 @@ int main(int argc, char** argv) {
     if(file == nullptr) {
         cout << "Error opening the file!\n";
         return EXIT_FAILURE;
-    }
-    memory progMem = memory(file); // Program memory
+    } //read file
+    memory progMem = memory(file); //Program memory
     vector<data> rstack; //runtime stack
     int sp = -1; //runtime stack pointer
     vector<int> fpstack; //stack of frame pointers
-    int fpsp = -1; // frame pointer stack pointer
+    int fpsp = -1; //frame pointer stack pointer
     bool halt = false;
     char charIndicator = 'c';
     short shortIndicator = 1;
@@ -95,8 +109,6 @@ int main(int argc, char** argv) {
             if (value){
                 progMem.programCounter = data1.getData(intIndicator);
             }
-            //rstack.push_back(data2);
-            //rstack.push_back(data1);
             continue;
         }
         if (instruction == 44){ //call: 44, or 00101100

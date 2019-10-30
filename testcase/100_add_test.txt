@@ -1,0 +1,8 @@
+subr 0 main
+decl a int
+pushf 1
+pushf 2
+add
+popv a
+printv a
+ret

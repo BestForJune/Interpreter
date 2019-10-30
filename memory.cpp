@@ -1,4 +1,6 @@
 #include "memory.h"
+#include <cstring>
+
 memory::memory(FILE* file) {
     programCounter = 0;
     memSize = countFromFile(file);

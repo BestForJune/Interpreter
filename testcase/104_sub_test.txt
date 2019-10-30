@@ -1,0 +1,8 @@
+subr 0 main
+decl a float
+pushf 5
+pushf 2
+sub
+popv a
+printv a
+ret

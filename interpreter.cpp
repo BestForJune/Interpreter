@@ -8,17 +8,27 @@
 using namespace std;
 
 void printStack(vector<data> stack) {
-    cout << "stack is  : ";
-    for(int i = 0; i < stack.size(); i++) {
-        cout << stack[i] << ' ';
+    cout << "fstack: ";
+    if (stack.size() <= 0){
+        cout << "empty";
+    }
+    else{
+        for(int i = 0; i < stack.size(); i++) {
+            cout << stack[i] << ' ';
+        }
     }
     cout << endl;
 }
 
 void printfStack(vector<int> stack){
-    cout << "fstack is  : ";
-    for(int i = 0; i < stack.size(); i++) {
-        cout << stack[i] << ' ';
+    cout << "fstack: ";
+    if (stack.size() <= 0){
+        cout << "empty";
+    }
+    else{
+        for(int i = 0; i < stack.size(); i++) {
+            cout << stack[i] << ' ';
+        }
     }
     cout << endl;
 }
@@ -40,11 +50,12 @@ int main(int argc, char** argv) {
     int intIndicator = 1;
     float floatIndicator = 1.2;
 
-    progMem.printMem();
+    //progMem.printMem();
 
     while(!halt) {
-        printStack(rstack);
-        printfStack(fpstack);
+        //printStack(rstack);
+        //printfStack(fpstack);
+        //cout << "PC: " << progMem.programCounter << endl;
         unsigned char instruction = progMem.getCurrent();
         if (instruction == 132){ //cmpe
             data data1 = rstack.back();
@@ -84,10 +95,12 @@ int main(int argc, char** argv) {
             if (value){
                 progMem.programCounter = data1.getData(intIndicator);
             }
+            //rstack.push_back(data2);
+            //rstack.push_back(data1);
             continue;
         }
         if (instruction == 44){ //call: 44, or 00101100
-            sp = rstack.size();
+            sp = rstack.size() - 1;
             int dataResult = sp - rstack.back().getData(intIndicator) - 1;
             fpstack.push_back(dataResult);
             rstack.pop_back();
@@ -98,7 +111,7 @@ int main(int argc, char** argv) {
         if (instruction == 48){ //ret: 48, or 00110000
             sp = fpstack.back();
             fpstack.pop_back();
-            for (int i = rstack.size(); i > sp; i--){
+            for (int i = rstack.size() - 1; i > sp; i--){
                 rstack.pop_back();
             }
             progMem.programCounter = rstack.back().getData(intIndicator); 
@@ -154,12 +167,12 @@ int main(int argc, char** argv) {
         if (instruction == 77){ //popa: 77, or 01001101
             int result = rstack.back().getData(intIndicator);
             int fpresult = fpstack.back();
-            sp = rstack.size();
-            for (int i = 1; i < result + 1; i++){
-                rstack[fpresult + i] = rstack[sp - result + i - 1];
+            sp = rstack.size() - 1;
+            for (int i = result; i >= 1; i--){
+                rstack[fpresult + i] = rstack[sp - (result - i + 1)];
             }
             sp = fpresult+result;
-            for (int i = rstack.size(); i > sp; i--){
+            for (int i = rstack.size() - 1; i > sp; i--){
                 rstack.pop_back();
             }
             continue;
@@ -261,9 +274,18 @@ int main(int argc, char** argv) {
         }
         if(instruction == 0) { //halt 00000000
             halt = true;
+            progMem.programCounter -= 1;
             continue;
         }
     }
+
+    cout << "\nCompile values:" << endl;
+    cout << "PC: " << progMem.programCounter << endl;
+    cout << "sp: " << int(rstack.size()-1) <<endl;
+    printStack(rstack);
+    cout << "fpsp: " << int(fpstack.size()-1) <<endl;
+    printfStack(fpstack);
+
     fclose(file);
     return EXIT_SUCCESS;
 }

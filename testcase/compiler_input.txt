@@ -1,0 +1,21 @@
+subr 0 main
+decl a int
+pushi 0
+popv a
+call 1 a addtest
+ret
+subr 1 addtest
+decl result int
+peek result 0
+printv result
+pushv result
+pushi 10
+cmpe
+jmpc test
+pushi 1
+pushv result
+add
+popv result
+call 1 result addtest
+lab test
+ret

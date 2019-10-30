@@ -1,0 +1,5976 @@
+State Before Executing PC 0(Instr: 70) (PUSHI)
+
+PC: 0
+MEM At and Near PC: 70 16 0 0 0 70 17 0 0 0
+SP: -1
+RSTACK:
+FPSP: -1
+FPSTACK:
+
+State After Executing
+
+PC: 5
+MEM At and Near PC: 70 17 0 0 0 70 1 0 0 0
+SP: 0
+RSTACK: 16
+FPSP: -1
+FPSTACK:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 5(Instr: 70) (PUSHI)
+
+PC: 5
+MEM At and Near PC: 70 17 0 0 0 70 1 0 0 0
+SP: 0
+RSTACK: 16
+FPSP: -1
+FPSTACK:
+
+State After Executing
+
+PC: 10
+MEM At and Near PC: 70 1 0 0 0 44 0 70 0 0
+SP: 1
+RSTACK: 16 17
+FPSP: -1
+FPSTACK:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 10(Instr: 70) (PUSHI)
+
+PC: 10
+MEM At and Near PC: 70 1 0 0 0 44 0 70 0 0
+SP: 1
+RSTACK: 16 17
+FPSP: -1
+FPSTACK:
+
+State After Executing
+
+PC: 15
+MEM At and Near PC: 44 0 70 0 0 0 0 70 0 0
+SP: 2
+RSTACK: 16 17 1
+FPSP: -1
+FPSTACK:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 15(Instr: 44) (CALL)
+
+PC: 15
+MEM At and Near PC: 44 0 70 0 0 0 0 70 0 0
+SP: 2
+RSTACK: 16 17 1
+FPSP: -1
+FPSTACK:
+
+State After Executing
+
+PC: 17
+MEM At and Near PC: 70 0 0 0 0 70 0 0 0 0
+SP: 0
+RSTACK: 16
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 17(Instr: 70) (PUSHI)
+
+PC: 17
+MEM At and Near PC: 70 0 0 0 0 70 0 0 0 0
+SP: 0
+RSTACK: 16
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 22
+MEM At and Near PC: 70 0 0 0 0 70 0 0 0 0
+SP: 1
+RSTACK: 16 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 22(Instr: 70) (PUSHI)
+
+PC: 22
+MEM At and Near PC: 70 0 0 0 0 70 0 0 0 0
+SP: 1
+RSTACK: 16 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 27
+MEM At and Near PC: 70 0 0 0 0 80 70 55 0 0
+SP: 2
+RSTACK: 16 0 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 27(Instr: 70) (PUSHI)
+
+PC: 27
+MEM At and Near PC: 70 0 0 0 0 80 70 55 0 0
+SP: 2
+RSTACK: 16 0 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 32
+MEM At and Near PC: 80 70 55 0 0 0 70 0 0 0
+SP: 3
+RSTACK: 16 0 0 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 32(Instr: 80) (POPV)
+
+PC: 32
+MEM At and Near PC: 80 70 55 0 0 0 70 0 0 0
+SP: 3
+RSTACK: 16 0 0 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 33
+MEM At and Near PC: 70 55 0 0 0 70 0 0 0 0
+SP: 1
+RSTACK: 16 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 33(Instr: 70) (PUSHI)
+
+PC: 33
+MEM At and Near PC: 70 55 0 0 0 70 0 0 0 0
+SP: 1
+RSTACK: 16 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 38
+MEM At and Near PC: 70 0 0 0 0 74 70 62 0 0
+SP: 2
+RSTACK: 16 0 55
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 38(Instr: 70) (PUSHI)
+
+PC: 38
+MEM At and Near PC: 70 0 0 0 0 74 70 62 0 0
+SP: 2
+RSTACK: 16 0 55
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 43
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 3
+RSTACK: 16 0 55 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 43(Instr: 74) (PUSHVI)
+
+PC: 43
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 3
+RSTACK: 16 0 55 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 44
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 3
+RSTACK: 16 0 55 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 44(Instr: 70) (PUSHI)
+
+PC: 44
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 3
+RSTACK: 16 0 55 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 49
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 62
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 49(Instr: 70) (PUSHI)
+
+PC: 49
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 62
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 54
+MEM At and Near PC: 44 70 0 0 0 0 77 48 70 0
+SP: 5
+RSTACK: 16 0 55 0 62 2
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 54(Instr: 44) (CALL)
+
+PC: 54
+MEM At and Near PC: 44 70 0 0 0 0 77 48 70 0
+SP: 5
+RSTACK: 16 0 55 0 62 2
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 3
+RSTACK: 16 0 55 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 3
+RSTACK: 16 0 55 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 6
+RSTACK: 16 0 55 0 0 1 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 6
+RSTACK: 16 0 55 0 0 1 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 5
+RSTACK: 16 0 55 0 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 5
+RSTACK: 16 0 55 0 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+0
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 6
+RSTACK: 16 0 55 0 0 0 10
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 6
+RSTACK: 16 0 55 0 0 0 10
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 6
+RSTACK: 16 0 55 0 0 0 143
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 6
+RSTACK: 16 0 55 0 0 0 143
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 6
+RSTACK: 16 0 55 0 0 1 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 6
+RSTACK: 16 0 55 0 0 1 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 6
+RSTACK: 16 0 55 0 0 1 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 6
+RSTACK: 16 0 55 0 0 1 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 5
+RSTACK: 16 0 55 0 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 6
+RSTACK: 16 0 55 0 0 1 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 6
+RSTACK: 16 0 55 0 0 1 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 4
+RSTACK: 16 0 55 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 5
+RSTACK: 16 0 55 0 1 143
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 5
+RSTACK: 16 0 55 0 1 143
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 6
+RSTACK: 16 0 55 0 1 143 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 6
+RSTACK: 16 0 55 0 1 143 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 6
+RSTACK: 16 0 55 0 1 143 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 6
+RSTACK: 16 0 55 0 1 143 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 62
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 62
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 62 2
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 62 2
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 6
+RSTACK: 16 0 55 0 1 143 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 6
+RSTACK: 16 0 55 0 1 143 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 0 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 0 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 0 1 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 0 1 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+1
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 1 10
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 1 10
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 0 143
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 0 143
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 1 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 1 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 2 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 1 2 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 2 143
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 2 143
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 2 143 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 2 143 1
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 2 143 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 2 143 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 62
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 62
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 62 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 62 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 2 143 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 9
+RSTACK: 16 0 55 0 1 143 1 2 143 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 0 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 0 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 0 1 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 0 1 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+2
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 2 10
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 2 10
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 0 143
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 0 143
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 1 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 3 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 2 3 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 1
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 62
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 62
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 62 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 62 2
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 12
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 0 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 0 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 0 1 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 0 1 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+3
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 3 10
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 3 10
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 0 143
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 0 143
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 1 3
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 4 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 3 4 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 1
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 62
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 62
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 62 2
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 62 2
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 15
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 0 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 0 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 0 1 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 0 1 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+4
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 4 10
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 4 10
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 0 143
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 0 143
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 1 4
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 5 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 4 5 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 1
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 62
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 62
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 62 2
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 62 2
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 18
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 0 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 0 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 0 1 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 0 1 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+5
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 5 10
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 5 10
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 0 143
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 0 143
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 1 5
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 6 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 5 6 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 1
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 62
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 62
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 62 2
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 62 2
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 21
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 0 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 0 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 0 1 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 0 1 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+6
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 6 10
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 6 10
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 0 143
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 0 143
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 1 6
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 7 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 6 7 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 1
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 62
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 62
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 62 2
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 62 2
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 24
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 0 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 0 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 0 1 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 0 1 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+7
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 7 10
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 7 10
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 0 143
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 0 143
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 1 7
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 8 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 7 8 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 1
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 62
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 62
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 62 2
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 62 2
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 27
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 0 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 0 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 0 1 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 0 1 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+8
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 8 10
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 8 10
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 0 143
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 0 143
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 1 8
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 9 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 8 9 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 1
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 62
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 62
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 62 2
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 62 2
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 30
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 0 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 0 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 0 1 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 0 1 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+9
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 0 143
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 0 143
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 103(Instr: 70) (PUSHI)
+
+PC: 103
+MEM At and Near PC: 70 1 0 0 0 70 1 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 108(Instr: 70) (PUSHI)
+
+PC: 108
+MEM At and Near PC: 70 1 0 0 0 74 100 70 1 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 113(Instr: 74) (PUSHVI)
+
+PC: 113
+MEM At and Near PC: 74 100 70 1 0 0 0 80 70 143
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 114(Instr: 100) (ADD)
+
+PC: 114
+MEM At and Near PC: 100 70 1 0 0 0 80 70 143 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 1 9
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 115(Instr: 70) (PUSHI)
+
+PC: 115
+MEM At and Near PC: 70 1 0 0 0 80 70 143 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 10 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 120(Instr: 80) (POPV)
+
+PC: 120
+MEM At and Near PC: 80 70 143 0 0 0 70 1 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 9 10 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 121(Instr: 70) (PUSHI)
+
+PC: 121
+MEM At and Near PC: 70 143 0 0 0 70 1 0 0 0
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 126(Instr: 70) (PUSHI)
+
+PC: 126
+MEM At and Near PC: 70 1 0 0 0 74 70 62 0 0
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 131(Instr: 74) (PUSHVI)
+
+PC: 131
+MEM At and Near PC: 74 70 62 0 0 0 70 2 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 1
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 132(Instr: 70) (PUSHI)
+
+PC: 132
+MEM At and Near PC: 70 62 0 0 0 70 2 0 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 62
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 137(Instr: 70) (PUSHI)
+
+PC: 137
+MEM At and Near PC: 70 2 0 0 0 44 70 0 0 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 62
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 62 2
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 142(Instr: 44) (CALL)
+
+PC: 142
+MEM At and Near PC: 44 70 0 0 0 0 77 48
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 62 2
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 62(Instr: 70) (PUSHI)
+
+PC: 62
+MEM At and Near PC: 70 0 0 0 0 70 1 0 0 0
+SP: 33
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 0
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 67(Instr: 70) (PUSHI)
+
+PC: 67
+MEM At and Near PC: 70 1 0 0 0 70 0 0 0 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 0
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 0 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 72(Instr: 70) (PUSHI)
+
+PC: 72
+MEM At and Near PC: 70 0 0 0 0 86 70 1 0 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 0 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 36
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 0 1 0
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 77(Instr: 86) (PEEKI)
+
+PC: 77
+MEM At and Near PC: 86 70 1 0 0 0 74 146 70 1
+SP: 36
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 0 1 0
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 78(Instr: 70) (PUSHI)
+
+PC: 78
+MEM At and Near PC: 70 1 0 0 0 74 146 70 1 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 83(Instr: 74) (PUSHVI)
+
+PC: 83
+MEM At and Near PC: 74 146 70 1 0 0 0 74 70 10
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 84(Instr: 146) (PRINTI)
+
+PC: 84
+MEM At and Near PC: 146 70 1 0 0 0 74 70 10 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+10
+State After Executing
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 85(Instr: 70) (PUSHI)
+
+PC: 85
+MEM At and Near PC: 70 1 0 0 0 74 70 10 0 0
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 90(Instr: 74) (PUSHVI)
+
+PC: 90
+MEM At and Near PC: 74 70 10 0 0 0 132 70 143 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 91(Instr: 70) (PUSHI)
+
+PC: 91
+MEM At and Near PC: 70 10 0 0 0 132 70 143 0 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 36
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 96(Instr: 132) (CMPE)
+
+PC: 96
+MEM At and Near PC: 132 70 143 0 0 0 40 70 1 0
+SP: 36
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 97(Instr: 70) (PUSHI)
+
+PC: 97
+MEM At and Near PC: 70 143 0 0 0 40 70 1 0 0
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 36
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1 143
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 102(Instr: 40) (JMPC)
+
+PC: 102
+MEM At and Near PC: 40 70 1 0 0 0 70 1 0 0
+SP: 36
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 1 143
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 34
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 0
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 35
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143 10 10 0
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 143
+FPSP: 11
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29 32
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 31
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 32
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143 9 10 0
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 143
+FPSP: 10
+FPSTACK: 0 2 5 8 11 14 17 20 23 26 29
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 28
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 29
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143 8 9 0
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 143
+FPSP: 9
+FPSTACK: 0 2 5 8 11 14 17 20 23 26
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 25
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 26
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143 7 8 0
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 143
+FPSP: 8
+FPSTACK: 0 2 5 8 11 14 17 20 23
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 22
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 23
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143 6 7 0
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 143
+FPSP: 7
+FPSTACK: 0 2 5 8 11 14 17 20
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 19
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 20
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143 5 6 0
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 143
+FPSP: 6
+FPSTACK: 0 2 5 8 11 14 17
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 16
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 17
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143 4 5 0
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 143
+FPSP: 5
+FPSTACK: 0 2 5 8 11 14
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 13
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 14
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143 3 4 0
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 143
+FPSP: 4
+FPSTACK: 0 2 5 8 11
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 10
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 11
+RSTACK: 16 0 55 0 1 143 1 2 143 2 3 0
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 2 143
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 2 143
+FPSP: 3
+FPSTACK: 0 2 5 8
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 7
+RSTACK: 16 0 55 0 1 143 1 2
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 2 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 8
+RSTACK: 16 0 55 0 1 143 1 2 0
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 5
+RSTACK: 16 0 55 0 1 143
+FPSP: 2
+FPSTACK: 0 2 5
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 5
+RSTACK: 16 0 55 0 1 143
+FPSP: 2
+FPSTACK: 0 2 5
+
+State After Executing
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 4
+RSTACK: 16 0 55 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 143(Instr: 70) (PUSHI)
+
+PC: 143
+MEM At and Near PC: 70 0 0 0 0 77 48
+SP: 4
+RSTACK: 16 0 55 0 1
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 5
+RSTACK: 16 0 55 0 1 0
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 148(Instr: 77) (POPA)
+
+PC: 148
+MEM At and Near PC: 77 48
+SP: 5
+RSTACK: 16 0 55 0 1 0
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 149
+MEM At and Near PC: 48
+SP: 2
+RSTACK: 16 0 55
+FPSP: 1
+FPSTACK: 0 2
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 149(Instr: 48) (RET)
+
+PC: 149
+MEM At and Near PC: 48
+SP: 2
+RSTACK: 16 0 55
+FPSP: 1
+FPSTACK: 0 2
+
+State After Executing
+
+PC: 55
+MEM At and Near PC: 70 0 0 0 0 77 48 70 0 0
+SP: 1
+RSTACK: 16 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 55(Instr: 70) (PUSHI)
+
+PC: 55
+MEM At and Near PC: 70 0 0 0 0 77 48 70 0 0
+SP: 1
+RSTACK: 16 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 60
+MEM At and Near PC: 77 48 70 0 0 0 0 70 1 0
+SP: 2
+RSTACK: 16 0 0
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 60(Instr: 77) (POPA)
+
+PC: 60
+MEM At and Near PC: 77 48 70 0 0 0 0 70 1 0
+SP: 2
+RSTACK: 16 0 0
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 61
+MEM At and Near PC: 48 70 0 0 0 0 70 1 0 0
+SP: 0
+RSTACK: 16
+FPSP: 0
+FPSTACK: 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 61(Instr: 48) (RET)
+
+PC: 61
+MEM At and Near PC: 48 70 0 0 0 0 70 1 0 0
+SP: 0
+RSTACK: 16
+FPSP: 0
+FPSTACK: 0
+
+State After Executing
+
+PC: 16
+MEM At and Near PC: 0 70 0 0 0 0 70 0 0 0
+SP: -1
+RSTACK:
+FPSP: -1
+FPSTACK:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+State Before Executing PC 16(Instr: 0) (HALT)
+
+PC: 16
+MEM At and Near PC: 0 70 0 0 0 0 70 0 0 0
+SP: -1
+RSTACK:
+FPSP: -1
+FPSTACK:
+
+
+Values @ End of Execution:
+PC: 16
+sp: -1
+rstack: empty
+fpsp: -1
+fpstack: empty
+
+Process finished with exit code 0

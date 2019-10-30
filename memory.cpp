@@ -29,7 +29,7 @@ memory::~memory() {
 
 
 unsigned char memory::getCurrent() {
-    return mem[programCounter];
+    return mem[programCounter++];
 }
 
 

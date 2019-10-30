@@ -86,25 +86,21 @@ int main(int argc, char** argv) {
             continue;
         }
         if (instruction == 68){ //pushc: 68, or 01000100
-            progMem.programCounter += 1;
             data result = data(progMem.getChar());
             rstack.push_back(result);
             continue;
         }
         if (instruction == 69){//pushs: 69 or 01000101
-            progMem.programCounter += 1;
             data result = data(progMem.getShort());
             rstack.push_back(result);
             continue;
         }
         if (instruction == 70){ //pushi: 70 or 01000110
-            progMem.programCounter += 1;
             data result = data(progMem.getInt());
             rstack.push_back(result);
             continue;
         }
         if (instruction == 71){ //pushf: 71 or 01000111
-            progMem.programCounter += 1;
             data result = data(progMem.getFloat());
             rstack.push_back(result);
             continue;

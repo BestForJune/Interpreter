@@ -87,7 +87,7 @@ int main(int argc, char** argv) {
             continue;
         }
         if (instruction == 44){ //call: 44, or 00101100
-            sp = rstack.size();
+            sp = rstack.size() - 1;
             int dataResult = sp - rstack.back().getData(intIndicator) - 1;
             fpstack.push_back(dataResult);
             rstack.pop_back();
@@ -154,7 +154,7 @@ int main(int argc, char** argv) {
         if (instruction == 77){ //popa: 77, or 01001101
             int result = rstack.back().getData(intIndicator);
             int fpresult = fpstack.back();
-            sp = rstack.size();
+            sp = rstack.size() - 1;
             for (int i = 1; i < result + 1; i++){
                 rstack[fpresult + i] = rstack[sp - result + i - 1];
             }

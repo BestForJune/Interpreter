@@ -96,7 +96,8 @@ float memory::getFloat() {
 void memory::printMem() {
     std::cout << "memory: ";
     for(long lcv = 0; lcv < memSize; lcv++) {
-        std::cout << lcv << ":" << int(mem[lcv]) << ' ';
+        std::cout << lcv << ":";
+        std::cout << int(mem[lcv]) << ' ';
     }
     std::cout << std::endl;
 }

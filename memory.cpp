@@ -1,5 +1,6 @@
 #include "memory.h"
 #include <cstring>
+#include <iostream>
 
 memory::memory(FILE* file) {
     programCounter = 0;
@@ -91,4 +92,13 @@ float memory::getFloat() {
     programCounter += 4;
     return result;
 }
+
+void memory::printMem() {
+    std::cout << "memory: ";
+    for(long lcv = 0; lcv < memSize; lcv++) {
+        std::cout << lcv << ":" << int(mem[lcv]) << ' ';
+    }
+    std::cout << std::endl;
+}
+
 

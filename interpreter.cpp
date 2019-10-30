@@ -7,6 +7,22 @@
 
 using namespace std;
 
+void printStack(vector<data> stack) {
+    cout << "stack is  : ";
+    for(int i = 0; i < stack.size(); i++) {
+        cout << stack[i] << ' ';
+    }
+    cout << endl;
+}
+
+void printfStack(vector<int> stack){
+    cout << "fstack is  : ";
+    for(int i = 0; i < stack.size(); i++) {
+        cout << stack[i] << ' ';
+    }
+    cout << endl;
+}
+
 int main(int argc, char** argv) {
     FILE* file = fopen(argv[1], "r");
     if(file == nullptr) {
@@ -24,7 +40,11 @@ int main(int argc, char** argv) {
     int intIndicator = 1;
     float floatIndicator = 1.2;
 
+    progMem.printMem();
+
     while(!halt) {
+        printStack(rstack);
+        printfStack(fpstack);
         unsigned char instruction = progMem.getCurrent();
         if (instruction == 132){ //cmpe
             data data1 = rstack.back();
@@ -34,7 +54,7 @@ int main(int argc, char** argv) {
             rstack.push_back(data1 == data2);
             continue;
         }
-        if (instruction == 135){ //cmplt: 136, or 10001000
+        if (instruction == 136){ //cmplt: 136, or 10001000
             data data1 = rstack.back();
             rstack.pop_back();
             data data2 = rstack.back();
@@ -112,12 +132,12 @@ int main(int argc, char** argv) {
             int result = rstack.back().getData(intIndicator);
             rstack.pop_back();
             int fpresult = fpstack.back();
-            rstack.push_back(rstack[result+fpresult+1]);
+            rstack.push_back(rstack[result + fpresult + 1]);
             continue;
         }
         if (instruction == 76){ //popm: 76, or 01001100
-            sp = rstack.back().getData(intIndicator)+1;
-            for (int i = rstack.size(); i > sp; i--){
+            sp = rstack.back().getData(intIndicator) + 1;
+            for (int i = 0; i < sp; i++){
                 rstack.pop_back();
             }
             continue;
@@ -125,10 +145,10 @@ int main(int argc, char** argv) {
         if (instruction == 80){ //popv: 80, or 01010000
             data result = rstack.back();
             rstack.pop_back();
+            data into = rstack.back();
+            rstack.pop_back();
             int fpresult = fpstack.back();
-            rstack[fpresult+result.getData(intIndicator)+1] = result;
-            rstack.pop_back();
-            rstack.pop_back();
+            rstack[fpresult + result.getData(intIndicator) + 1] = into;
             continue;
         }
         if (instruction == 77){ //popa: 77, or 01001101

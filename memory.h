@@ -17,6 +17,8 @@ public:
     short getShort();
     int getInt();
     float getFloat();
+
+    void printMem();
 };
 
 long countFromFile(FILE* file);

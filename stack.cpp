@@ -131,3 +131,11 @@ float data::getData(float indicator) {
     }
     return floatData;
 }
+
+std::ostream& operator<<(std::ostream& os, const data& arg) {
+    if (arg.dataType == CHAR){ return os << arg.charData; }
+    else if (arg.dataType == SHORT){ return  os << arg.shortData; }
+    else if (arg.dataType == INT){ return os << arg.intData; }
+    else if (arg.dataType == FLOAT){ return os << arg.floatData; }
+    return os;
+}

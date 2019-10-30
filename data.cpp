@@ -1,3 +1,9 @@
+/******************************************************************************
+ * File name: data.cpp
+ * Description: member functions in class data
+ * Programmers: Zhengsen Fu fu216@purdue.edu
+ *              Yanjun Chen chen2620@purdue.edu
+ ******************************************************************************/
 #include "data.h"
 #include <iostream>
 

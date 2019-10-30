@@ -1,10 +1,9 @@
 /******************************************************************************
- * Assignment:  Lab 06
- * Lab Section: Thursday, 2-22-2018, 1:30, SC 189
- * Description: A program that puts into words the mathematical equation that the operator inputs.
- * Programmers: Daniel Payne payne71@purdue.edu
+ * File name: interpreter.cpp 
+ * Description: The bytecode interpreter will read a bytecode file produced by
+ *              the compiler
+ * Programmers: Zhengsen Fu fu216@purdue.edu
  *              Yanjun Chen chen2620@purdue.edu
- *              Jeffrey Finucane jfinucan@purdue.edu
  ******************************************************************************/
 #include <cstdlib>
 #include <iostream>
@@ -15,14 +14,13 @@
 using namespace std;
 
 /******************************************************************************
- * Function:    inputNumbers
- * Description: This functions takes calculation selection and operand selection from user
- * Parameters:  *number1, int, the first operand declared by the user
- *                      *number2, int, the second operand declared by the user
- * Return:         void
+ * Function:    printStack
+ * Description: This functions print the elements in the runtime stack
+ * Parameters:  stack, vector<data>, runtime stack
+ * Return:      print the elements
  ******************************************************************************/
 void printStack(vector<data> stack) {
-    cout << "fstack: ";
+    cout << "rstack: ";
     if (stack.size() <= 0){
         cout << "empty";
     }
@@ -34,8 +32,15 @@ void printStack(vector<data> stack) {
     cout << endl;
 }
 
+/******************************************************************************
+ * Function:    printfStack
+ * Description: This functions print the elements in the stack of frame 
+ *              pointers
+ * Parameters:  stack, vector<int>, stack of frame pointers
+ * Return:      print the elements
+ ******************************************************************************/
 void printfStack(vector<int> stack){
-    cout << "fstack: ";
+    cout << "fpstack: ";
     if (stack.size() <= 0){
         cout << "empty";
     }
@@ -58,20 +63,19 @@ int main(int argc, char** argv) {
     int sp = -1; //runtime stack pointer
     vector<int> fpstack; //stack of frame pointers
     int fpsp = -1; //frame pointer stack pointer
-    bool halt = false;
-    char charIndicator = 'c';
-    short shortIndicator = 1;
-    int intIndicator = 1;
-    float floatIndicator = 1.2;
-
-    //progMem.printMem();
+    bool halt = false; //help to end the program
+    char charIndicator = 'c'; //example of a character, use to grep element from target stack
+    short shortIndicator = 1; //example of a short, use to grep element from target stack
+    int intIndicator = 1; //example of an int, use to grep element from target stack
+    float floatIndicator = 1.2; //example of a float, use to grep element from target stack
+    //progMem.printMem(); //helper function: print elements in program memory
 
     while(!halt) {
-        //printStack(rstack);
-        //printfStack(fpstack);
-        //cout << "PC: " << progMem.programCounter << endl;
-        unsigned char instruction = progMem.getCurrent();
-        if (instruction == 132){ //cmpe
+        //printStack(rstack); //helper function: print elements on the run time stack
+        //printfStack(fpstack); //helper function: print the elements in the stack of frame pointers
+        unsigned char instruction = progMem.getCurrent(); //get the instruction from program memory
+
+        if (instruction == 132){ //cmpe: 132, or 10000100
             data data1 = rstack.back();
             rstack.pop_back();
             data data2 = rstack.back();
@@ -114,9 +118,9 @@ int main(int argc, char** argv) {
         if (instruction == 44){ //call: 44, or 00101100
             sp = rstack.size() - 1;
             int dataResult = sp - rstack.back().getData(intIndicator) - 1;
-            fpstack.push_back(dataResult);
+            fpstack.push_back(dataResult); //current address on the runtime stack 
             rstack.pop_back();
-            progMem.programCounter = rstack.back().getData(intIndicator); //pc = rstack[sp]
+            progMem.programCounter = rstack.back().getData(intIndicator); //point the pc to called address
             rstack.pop_back();
             continue;
         }

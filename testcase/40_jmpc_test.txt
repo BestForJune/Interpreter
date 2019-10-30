@@ -1,0 +1,8 @@
+subr 0 main
+pushi 0
+pushi 1
+cmpe
+jmpc SAME
+lab SAME
+printi 1
+ret

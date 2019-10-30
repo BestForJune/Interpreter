@@ -1,0 +1,7 @@
+subr 0 main
+jmp TEST
+printi 1
+
+lab TEST
+printi 0
+ret

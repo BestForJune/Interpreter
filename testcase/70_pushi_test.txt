@@ -1,0 +1,7 @@
+subr 0 main
+decl result int
+pushi 15
+popv result
+printv result
+ret
+

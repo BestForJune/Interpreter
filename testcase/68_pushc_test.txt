@@ -1,0 +1,7 @@
+subr 0 main
+decl result char
+pushc 'c'
+popv result
+printv result
+ret
+

@@ -1,0 +1,7 @@
+subr 0 main
+decl result str
+pushs "hello world"
+popv result
+printv result
+ret
+

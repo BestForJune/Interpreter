@@ -1,0 +1,13 @@
+subr 0 main
+decl a float
+pushf 3
+pushf 2
+cmplt
+popv a
+printv a
+pushf 2
+pushf 3
+cmplt
+popv a
+printv a
+ret

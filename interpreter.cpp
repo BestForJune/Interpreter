@@ -72,7 +72,7 @@ int main(int argc, char** argv) {
         if (instruction == 48){ //ret: 48, or 00110000
             sp = fpstack.back();
             fpstack.pop_back();
-            for (int i = rstack.size(); i < sp; i--){
+            for (int i = rstack.size(); i > sp; i--){
                 rstack.pop_back();
             }
             progMem.programCounter = rstack.back().getData(intIndicator); 

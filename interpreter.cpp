@@ -3,7 +3,7 @@
 #include <cstdio>
 #include <vector>
 #include "memory.h"
-#include "stack.h"
+#include "data.h"
 
 using namespace std;
 

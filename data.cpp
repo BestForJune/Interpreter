@@ -1,4 +1,4 @@
-#include "stack.h"
+#include "data.h"
 #include <iostream>
 data::data(char dataInput) {
     dataType = CHAR;

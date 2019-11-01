@@ -58,6 +58,7 @@ int main(int argc, char** argv) {
         cout << "Error opening the file!\n";
         return EXIT_FAILURE;
     } //read file
+
     memory progMem = memory(file); //Program memory
     vector<data> rstack; //runtime stack
     int sp = -1; //runtime stack pointer
@@ -88,7 +89,7 @@ int main(int argc, char** argv) {
             rstack.pop_back();
             data data2 = rstack.back();
             rstack.pop_back();
-            rstack.push_back(data1 < data2);
+            rstack.push_back(data1 > data2);
             continue;
         }
         if (instruction == 140){ //cmpgt: 140, or 10001100
@@ -96,7 +97,7 @@ int main(int argc, char** argv) {
             rstack.pop_back();
             data data2 = rstack.back();
             rstack.pop_back();
-            rstack.push_back(data1 > data2);
+            rstack.push_back(data1 < data2);
             continue;
         }
         if (instruction == 36){ //jmp: 36, or 00100100 

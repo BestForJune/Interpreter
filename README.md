@@ -61,7 +61,7 @@ meaning: push an integer literal onto the top of the runtime stack.
 convert to an int i = mem[pc+1, mem[pc+2], mem[pc+3], mem[pc+4] (see https://stackoverflow.com/questions/13469681/how-to-convert-4-bytes-array-to-float-in-java) rstack[++sp] = i
 pc += 5;
 
-pushf: 71 or 01000111
+pushf: 71 or 01000111 
 meaning: push a float literal onto the top of the runtime stack.
 convert to a float f = mem[pc+1, mem[pc+2], mem[pc+3], mem[pc+4] (see https://stackoverflow.com/questions/13469681/how-to-convert-4-bytes-array-to-float-in-java) rstack[++sp] = f
 pc += 5;
